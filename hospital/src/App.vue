@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-[f0f2f7]">
     <Aside></Aside>
   </div>
 </template>

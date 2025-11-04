@@ -1,8 +1,8 @@
 <template>
-    <div>
-        <div class="max-w-64 flex flex-col">
+    <div class="bg-[#F6F8FB] h-[100vh]">
+        <div class="max-w-64 flex flex-col bg-white h-[100vh]">
             <div class="px-6 pt-6">
-                
+
                 <a href="/"><img class="w-36 h-8 " src="../assets/img/logo.svg" alt=""></a>
 
             </div>
