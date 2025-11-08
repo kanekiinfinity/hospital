@@ -1,14 +1,17 @@
 <template>
-  <div class="bg-[f0f2f7]">
+  <div class="bg-[#E8E8E8] flex">
     <Aside></Aside>
+    <Spec></Spec>
   </div>
 </template>
 
 <script>
 import Aside from './components/Aside.vue'
+import Spec from './views/Spec.vue'
 export default {
  components: {
-    Aside 
+    Aside, 
+    Spec
  } 
 }
 </script>
