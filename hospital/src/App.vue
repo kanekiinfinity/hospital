@@ -1,7 +1,8 @@
 <template>
-  <div class="bg-[f0f2f7]">
+  <div class="bg-[#f5f7fa] flex max-w-[1440px] w-full ml-auto mr-auto">
     <Aside></Aside>
-    <Header/>
+    <Header></Header>
+    
   </div>
 </template>
 

@@ -9,7 +9,8 @@ export default {
         primary2: '#27AE60',
         secondary: '#52575C',
         tertiary: '#EB5757',
-        borderColor: '#BBBBBB'
+        borderColor: '#BBBBBB',
+        titleColor: '#25282B'
       },
       fontFamily: {
         lato: ['Lato', 'sans-serif'],
