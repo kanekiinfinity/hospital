@@ -1,24 +1,20 @@
 <template>
-    <header class="header">
-            <nav class="nav w-[1184px] h-[88px] pl-9 pt-6 pr-6 flex justify-between">
-                <div class="flex items-center w-[350px] h-10 pb-3 pl-[42px] pt-3 rounded-2xl">
+    <header class="header w-full">
+            <nav class="nav h-[88px] pl-9 pt-6 pr-6 flex justify-between ">
+                <div class="flex items-center w-[350px] h-10 pb-3 pl-4 pt-3 rounded-[100px] bg-white gap-4">
                     <img src="../assets/img/search-icon.svg" alt="">
                     <input type="text" placeholder="Search" class="bg-inherit">
                 </div>
                 <div class="nav-right flex gap-4 items-center">
-                    <img src="" class="w-10 h-10" alt="">
-                    <img src="" class="w-10 h-10 rounded-[50%]" alt="">
-                </div>
-            </nav>
-            <div class="header_cards flex gap-[30px]">
-                <div class="header_card w-[255] flex items-center pl-6 pr-6 bg-white rounded-2xl">
-                    <img src="" alt="" class="header_card-banner w-10 h-10 mr-6">
-                    <div class="header_card-content flex flex-col">
-                        <h2 class="font-bold text-[14px] text-[#25282B] leading-[20px] font-lato"></h2>
-                        <h2 class="text-[#336CFB] font-normal text-[18px] leading-6 font-lato"></h2>
+                    <div class="relative w-10 flex">
+                        <img src="../assets/img/notifications.svg" class="w-6" alt="">
+                        <span class="absolute bg-[#FF6760] w-4 h-4 border-2 border-inherit  text-white font-bold text-[8px] left-[14px] top-[-4px] rounded-full leading-3 font-lato text-center">9</span>
+                    </div>
+                    <div class="">
+                        <img src="" class="w-10 h-10 rounded-[50%]" alt="">
                     </div>
                 </div>
-            </div>
+            </nav>
         </header>
 </template>
 

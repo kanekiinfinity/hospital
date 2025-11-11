@@ -1,4 +1,5 @@
 <template>
+
   <div class="bg-[#E8E8E8] flex">
     <Aside></Aside>
     <div class="w-full">

@@ -10,7 +10,7 @@
             <h1 class="text-sm font-lato font-normal leading-5 tracking-[0.1px] text-[#A0A4A8] pt-11 pb-2 ">MEDICINE
             </h1>
             <li class="py-3">
-                <a class="flex items-center gap-3 " href="">
+                <a class="flex items-center gap-3" href="">
                     <img class="w-4 h-4" src="../assets/img/pie-chart-icon.svg" alt="">
                     <p class="text-sm font-lato font-bold leading-5 tracking-[0.1px]">Bosh Sahifa</p>
                 </a>
@@ -39,7 +39,7 @@
                     <h3 class="text-sm font-lato font-bold leading-5 tracking-[0.1px]">Bemorlar</h3>
                 </a>
             </li>
-            <div class="w-[256px] border-[1px] absolute left-0 border-[#E8E8E8]"></div>
+            <div class="w-[256px] border-[1px] absolute left-0 border-gray-400"></div>
             <li class="py-3 pt-[22px]">
                 <a class="flex items-center gap-3" href="">
                     <img class="w-4 h-4" src="../assets/img/question-icon.svg" alt="">
