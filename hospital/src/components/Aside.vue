@@ -10,7 +10,7 @@
             <h1 class="text-sm font-lato font-normal leading-5 tracking-[0.1px] text-[#A0A4A8] pt-11 pb-2 ">MEDICINE
             </h1>
             <li class="py-3">
-                <a class="flex items-center gap-3" href="">
+                <a class="flex items-center gap-3 " href="">
                     <img class="w-4 h-4" src="../assets/img/pie-chart-icon.svg" alt="">
                     <p class="text-sm font-lato font-bold leading-5 tracking-[0.1px]">Bosh Sahifa</p>
                 </a>
