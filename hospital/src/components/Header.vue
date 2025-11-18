@@ -1,7 +1,7 @@
 <template>
     <header class="header w-full">
             <nav class="nav h-[88px] pl-9 pt-6 pr-6 flex justify-between ">
-                <div class="flex items-center w-[350px] h-10 pb-3 pl-4 pt-3 rounded-[100px] bg-white gap-4">
+                <div class="flex items-center h-10 pb-3 pl-4 pt-3 rounded-[100px] bg-white gap-4">
                     <img src="../assets/img/search-icon.svg" alt="">
                     <input type="text" placeholder="Search" class="bg-inherit">
                 </div>

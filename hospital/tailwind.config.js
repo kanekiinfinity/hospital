@@ -10,7 +10,8 @@ export default {
         secondary: '#52575C',
         tertiary: '#EB5757',
         borderColor: '#BBBBBB',
-        titleColor: '#25282B'
+        titleColor: '#25282B',
+        DoctorList: '#606060',
       },
       fontFamily: {
         lato: ['Lato', 'sans-serif'],
