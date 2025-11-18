@@ -10,11 +10,9 @@ export default {
         secondary: '#52575C',
         tertiary: '#EB5757',
         borderColor: '#BBBBBB',
-<<<<<<< HEAD
-        line: '#DBDDE0'
-=======
+        line: '#DBDDE0',
         titleColor: '#25282B'
->>>>>>> 6c8855aa529caef791dddbf5a0c2730b526e9ee8
+
       },
       fontFamily: {
         lato: ['Lato', 'sans-serif'],

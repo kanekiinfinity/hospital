@@ -1,6 +1,6 @@
 <template>
 
-  <div class="bg-[#E8E8E8] flex">
+  <div class="bg-[#F6F8FB] flex">
     <Aside></Aside>
     <div class="w-full">
       <Header></Header>

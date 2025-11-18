@@ -1,6 +1,6 @@
 <template>
 
-    <div class="w-64 flex flex-col bg-white h-[100vh]">
+    <div class="w-64 flex relative flex-col bg-white h-[100vh]">
         <div class="px-6 pt-6">
 
             <a href="/"><img class="w-36 h-8 " src="../assets/img/logo.svg" alt=""></a>
@@ -39,7 +39,7 @@
                     <h3 class="text-sm font-lato font-bold leading-5 tracking-[0.1px]">Bemorlar</h3>
                 </a>
             </li>
-            <div class="w-[256px] border-[1px] absolute left-0 border-gray-400"></div>
+            <div class="w-[256px] border-[1px] absolute left-0 border-[#F6F8FB]"></div>
             <li class="py-3 pt-[22px]">
                 <a class="flex items-center gap-3" href="">
                     <img class="w-4 h-4" src="../assets/img/question-icon.svg" alt="">
