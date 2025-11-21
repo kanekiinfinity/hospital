@@ -7,7 +7,7 @@ export default {
       colors: {
         primary: '#336CFB',
         primary2: '#27AE60',
-        secondary: '#52575C',
+        textcolor: '#52575C',
         tertiary: '#EB5757',
         borderColor: '#BBBBBB',
         line: '#DBDDE0',
