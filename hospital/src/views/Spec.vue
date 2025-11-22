@@ -1,7 +1,7 @@
 <template>
     <div class="ml-9 mr-9">
-        <h1 class="font-lato  font-bold text-[40px] leading-[46px]">Bemorlar</h1>
         <div class="rounded-lg bg-white bg-cover mt-6 relative">
+            <h1 class="font-lato pl-6 pt-6  font-bold text-xl leading-[46px]">Bemorlar</h1>
             <table class="w-full items-center text-start">
 
                 <thead>

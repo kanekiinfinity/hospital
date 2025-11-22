@@ -1,32 +1,99 @@
 <template>
-    <div class="">
-        <h1 class="text-titleColor font-bold leading-[26px] text-[20px] font-lato m-6">Doctors</h1>
-        <table class="">
-            <thead>
-                <tr class="text-titleColor font-bold font-lato text-sm border-b border-[#DBDDE0]">
-                    <th class="">Given name</th>
-                    <th class="">Email</th>
-                    <th class="">Specialty</th>
-                    <th class="">Division</th>
-                    <th class="">Reception days</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="max-w-[1110px] w-[100%] font-normal font-lato text-sm text-secondary border-b border-[#DBDDE0]">
-                    <td class=""></td>
-                    <td class=""></td>
-                    <td class=""></td>
-                    <td class=""></td>
-                    <td class=""></td>
-                    <th class="">
-                        <div class="flex items-center w-14 justify-between">
-                            <button class="p-0.5 w-5"><img src="../assets/img/edit-icon.svg" alt="" class="w-4"></button>
-                            <button class="p-0.5 w-5"><img src="../assets/img/delete-icon.svg" alt="" class="w-4"></button>
-                        </div>
-                    </th>
-                </tr>
-            </tbody>
-        </table>
+    <div class="ml-9 mr-9">
+        <div class="rounded-lg bg-white bg-cover mt-6 relative">
+            <h1 class="font-lato pl-6 pt-6  font-bold text-xl leading-[46px]">Shifokorlar</h1>
+            <table class="w-full items-center text-start">
+
+                <thead>
+
+                    <tr class="">
+                        <th class="text-start px-6 py-5">Ism-sharifi</th>
+                        <th class="text-start py-5">Email</th>
+                        <th class="text-start py-5">Sana</th>
+                        <th class="text-start py-5">Qabul vaqti</th>
+                        <th class="text-start py-5">Shifokor</th>
+                        <th class="text-start py-5">Sabab</th>
+                    </tr>
+                </thead>
+                <tbody class="text-textcolor font-lato font-normal text-sm rela">
+                    <tr class="border-t">
+                        <td class="flex py-3 px-6 items-center gap-3">
+                            <div class="w-8 h-8 rounded-full overflow-hidden">
+                                <img src="../assets/img/circle.png" alt="">
+                            </div>
+                            <p class="text-textcolor">Jasmina</p>
+                        </td>
+                        <td>lesie.alexander@example.com</td>
+                        <td>10/10/2020</td>
+                        <td>09:15-09:45am</td>
+                        <td>Dr. Jacob Jones</td>
+                        <td>Mumps Stage II</td>
+                        <td>
+                            <div class="flex gap-3">
+                                <button>
+                                    <img src="../assets/img/pen.svg" alt="">
+                                </button>
+                                <button>   
+                                    <img src="../assets/img/bin.svg" alt="">
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody class="text-textcolor font-lato font-normal text-sm rela">
+                    <tr class="border-t">
+                        <td class="flex py-3 px-6 items-center gap-3">
+                            <div class="w-8 h-8 rounded-full overflow-hidden">
+                                <img src="../assets/img/circle.png" alt="">
+                            </div>
+                            <p class="text-textcolor">Jasmina</p>
+                        </td>
+                        <td>lesie.alexander@example.com</td>
+                        <td>10/10/2020</td>
+                        <td>09:15-09:45am</td>
+                        <td>Dr. Jacob Jones</td>
+                        <td>Mumps Stage II</td>
+                        <td>
+                            <div class="flex gap-3">
+                                <button>
+                                    <img src="../assets/img/pen.svg" alt="">
+                                </button>
+                                <button>   
+                                    <img src="../assets/img/bin.svg" alt="">
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody class="text-textcolor font-lato font-normal text-sm rela">
+                    <tr class="border-t">
+                        <td class="flex py-3 px-6 items-center gap-3">
+                            <div class="w-8 h-8 rounded-full overflow-hidden">
+                                <img src="../assets/img/circle.png" alt="">
+                            </div>
+                            <p class="text-textcolor">Jasmina</p>
+                        </td>
+                        <td>lesie.alexander@example.com</td>
+                        <td>10/10/2020</td>
+                        <td>09:15-09:45am</td>
+                        <td>Dr. Jacob Jones</td>
+                        <td>Mumps Stage II</td>
+                        <td>
+                            <div class="flex gap-3">
+                                <button>
+                                    <img src="../assets/img/pen.svg" alt="">
+                                </button>
+                                <button>   
+                                    <img src="../assets/img/bin.svg" alt="">
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
     </div>
 </template>
 
@@ -36,4 +103,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="sass" scoped>
+
+</style>
