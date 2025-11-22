@@ -1,39 +1,42 @@
 <template>
-    <div class="">
-        <h1 class="text-titleColor font-bold leading-[26px] text-[20px] font-lato m-6">Doctors</h1>
-        <table class="">
-            <thead>
-                <tr class="text-titleColor font-bold font-lato text-sm border-b border-[#DBDDE0]">
-                    <th class="">Given name</th>
-                    <th class="">Email</th>
-                    <th class="">Specialty</th>
-                    <th class="">Division</th>
-                    <th class="">Reception days</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="max-w-[1110px] w-[100%] font-normal font-lato text-sm text-secondary border-b border-[#DBDDE0]">
-                    <td class=""></td>
-                    <td class=""></td>
-                    <td class=""></td>
-                    <td class=""></td>
-                    <td class=""></td>
-                    <th class="">
-                        <div class="flex items-center w-14 justify-between">
-                            <button class="p-0.5 w-5"><img src="../assets/img/edit-icon.svg" alt="" class="w-4"></button>
-                            <button class="p-0.5 w-5"><img src="../assets/img/delete-icon.svg" alt="" class="w-4"></button>
-                        </div>
-                    </th>
-                </tr>
-            </tbody>
-        </table>
+    <div>
+        <div class="max-w-[1110px]">
+            <div>
+                <h1>Bemorlar</h1>
+                <table>
+                    <td>
+                        <tr>Ism-sharifi</tr>
+                        <tr>Email</tr>
+                        <tr>Sana</tr>
+                        <tr>Qabul vaqti</tr>
+                        <tr>Shifokor</tr>
+                        <tr>Sabab</tr>
+                    </td>
+                    <td>
+                        <tr>
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                            <p>Jasmina</p>
+                        </tr>
+                        <tr>lesie.alexander@example.com</tr>
+                        <tr>10/10/2020</tr>
+                        <tr>09:15-09:45am</tr>
+                        <tr>Dr. Jacob Jones</tr>
+                        <tr>Mumps Stage II</tr>
+                    </td>
+                </table>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
-export default {
-
-}
+    export default {
+        
+    }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="sass" scoped>
+
+</style>

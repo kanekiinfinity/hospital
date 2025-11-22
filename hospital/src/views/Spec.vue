@@ -1,40 +1,56 @@
 <template>
-    <div>
-        <div class="max-w-[1110px]">
-            <div>
-                <h1>Bemorlar</h1>
-                <table>
-                    <td>
-                        <tr>Ism-sharifi</tr>
-                        <tr>Email</tr>
-                        <tr>Sana</tr>
-                        <tr>Qabul vaqti</tr>
-                        <tr>Shifokor</tr>
-                        <tr>Sabab</tr>
-                    </td>
-                    <td>
-                        <tr>
-                            <div>
-                                <img src="" alt="">
+    <div class="ml-9 mr-9">
+        <h1 class="font-lato  font-bold text-[40px] leading-[46px]">Bemorlar</h1>
+        <div class="rounded-lg bg-white bg-cover mt-6 relative">
+            <table class="w-full items-center text-start">
+
+                <thead>
+
+                    <tr class="">
+                        <th class="text-start px-6 py-5">Ism-sharifi</th>
+                        <th class="text-start py-5">Email</th>
+                        <th class="text-start py-5">Sana</th>
+                        <th class="text-start py-5">Qabul vaqti</th>
+                        <th class="text-start py-5">Shifokor</th>
+                        <th class="text-start py-5">Sabab</th>
+                    </tr>
+                </thead>
+                <tbody class="text-textcolor font-lato font-normal text-sm rela">
+                    <tr class="border-t">
+                        <td class="flex py-3 px-6 items-center gap-3">
+                            <div class="w-8 h-8 rounded-full overflow-hidden">
+                                <img src="../assets/img/circle.png" alt="">
                             </div>
-                            <p>Jasmina</p>
-                        </tr>
-                        <tr>lesie.alexander@example.com</tr>
-                        <tr>10/10/2020</tr>
-                        <tr>09:15-09:45am</tr>
-                        <tr>Dr. Jacob Jones</tr>
-                        <tr>Mumps Stage II</tr>
-                    </td>
-                </table>
-            </div>
+                            <p class="text-textcolor">Jasmina</p>
+                        </td>
+                        <td>lesie.alexander@example.com</td>
+                        <td>10/10/2020</td>
+                        <td>09:15-09:45am</td>
+                        <td>Dr. Jacob Jones</td>
+                        <td>Mumps Stage II</td>
+                        <td>
+                            <div class="flex gap-3">
+                                <button>
+                                    <img src="../assets/img/pen.svg" alt="">
+                                </button>
+                                <button>   
+                                    <img src="../assets/img/bin.svg" alt="">
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+
         </div>
     </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {
+
+}
 </script>
 
 <style lang="sass" scoped>
