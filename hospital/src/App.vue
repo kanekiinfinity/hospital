@@ -6,6 +6,8 @@
       <Header></Header>
       <Spec></Spec>
       <Doctors></Doctors>
+      <!-- <Login></Login> -->
+      
     </div>
   </div>
 </template>
@@ -15,12 +17,14 @@ import Aside from './components/Aside.vue'
 import Header from './components/Header.vue';
 import Spec from './views/Spec.vue'
 import Doctors from './components/Doctor.vue';
+import Login from './views/Login.vue';
 export default {
   components: {
     Aside,
     Spec,
     Header,
-    Doctors
+    Doctors,
+    Login
   }
 }
 </script>
